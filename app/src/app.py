@@ -19,5 +19,11 @@ def healthz():
     return jsonify(status="ok")
 
 
+@app.get("/version")
+def version():
+    return jsonify(
+        version=os.getenv("APP_VERSION","dev")
+    )
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080)    
