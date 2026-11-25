@@ -9,6 +9,12 @@ services:
     environment:
       GREETING: "Hello from Docker Compose"
       REDIS_HOST: redis
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8080/healthz', timeout=2)"]
+      interval: 10s
+      timeout: 3s
+      retries: 3
+      start_period: 5s
     depends_on: 
       redis:
         condition: service_healthy
