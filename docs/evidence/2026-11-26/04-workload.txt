@@ -1,0 +1,13 @@
+NAME                                READY   STATUS    RESTARTS      AGE     IP             NODE                             NOMINATED NODE   READINESS GATES
+pod/hello-devops-69f8bcc845-4vnjl   1/1     Running   0             2m33s   10.244.0.180   aks-system-74677715-vmss000000   <none>           <none>
+pod/hello-devops-69f8bcc845-xwhs7   1/1     Running   1 (77s ago)   2m30s   10.244.0.48    aks-system-74677715-vmss000000   <none>           <none>
+
+NAME                   TYPE           CLUSTER-IP     EXTERNAL-IP     PORT(S)        AGE   SELECTOR
+service/hello-devops   LoadBalancer   10.0.103.187   172.130.93.32   80:32215/TCP   14m   app=hello-devops
+
+NAME                           READY   UP-TO-DATE   AVAILABLE   AGE   CONTAINERS   IMAGES                                            SELECTOR
+deployment.apps/hello-devops   2/2     2            2           14m   app          acrdevopslabc84d9.azurecr.io/hello-devops:1.0.3   app=hello-devops
+
+NAME                                      DESIRED   CURRENT   READY   AGE     CONTAINERS   IMAGES                                            SELECTOR
+replicaset.apps/hello-devops-558c44bb84   0         0         0       14m     app          acrdevopslabc84d9.azurecr.io/hello-devops:1.0.2   app=hello-devops,pod-template-hash=558c44bb84
+replicaset.apps/hello-devops-69f8bcc845   2         2         2       2m33s   app          acrdevopslabc84d9.azurecr.io/hello-devops:1.0.3   app=hello-devops,pod-template-hash=69f8bcc845

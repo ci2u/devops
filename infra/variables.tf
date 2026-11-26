@@ -19,3 +19,15 @@ variable "tags" {
     managed_by  = "terraform"
   }
 }
+
+variable "node_vm_size" {
+  description = "VM size of the AKS node"
+  type        = string
+  default     = "Standard_E2bds_v5"
+}
+
+variable "node_count" {
+  description = "number of nodes"
+  type        = number
+  default     = 1
+}

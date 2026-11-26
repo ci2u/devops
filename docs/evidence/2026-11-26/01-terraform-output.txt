@@ -1,0 +1,6 @@
+acr_login_server = "acrdevopslabc84d9.azurecr.io"
+acr_name = "acrdevopslabc84d9"
+aks_name = "aks-devopslab"
+aks_node_resource_group = "MC_rg-devopslab_aks-devopslab_swedencentral"
+get_credentials_command = "az aks get-credentials -g rg-devopslab -n aks-devopslab --overwrite-existing"
+resource_group_name = "rg-devopslab"

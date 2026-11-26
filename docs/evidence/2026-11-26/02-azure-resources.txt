@@ -1,0 +1,4 @@
+Name               ResourceGroup    Location       Type                                        Status
+-----------------  ---------------  -------------  ------------------------------------------  ---------
+acrdevopslabc84d9  rg-devopslab     swedencentral  Microsoft.ContainerRegistry/registries      Succeeded
+aks-devopslab      rg-devopslab     swedencentral  Microsoft.ContainerService/managedClusters  Succeeded

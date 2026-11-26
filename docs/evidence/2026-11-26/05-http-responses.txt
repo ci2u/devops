@@ -1,0 +1,10 @@
+{"hostname":"hello-devops-69f8bcc845-4vnjl","message":"Hello from a ConfigMap V2!","visits":null}
+
+{"hostname":"hello-devops-69f8bcc845-xwhs7","message":"Hello from a ConfigMap V2!","visits":null}
+
+{"hostname":"hello-devops-69f8bcc845-xwhs7","message":"Hello from a ConfigMap V2!","visits":null}
+
+{"hostname":"hello-devops-69f8bcc845-4vnjl","message":"Hello from a ConfigMap V2!","visits":null}
+
+{"hostname":"hello-devops-69f8bcc845-xwhs7","message":"Hello from a ConfigMap V2!","visits":null}
+
