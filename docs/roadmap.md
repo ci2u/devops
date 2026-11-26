@@ -23,7 +23,7 @@ WSL2 Ubuntu 24.04, VS Code + WSL extension, Docker Desktop, git, gh, az, terrafo
 - Graceful degradation when Redis is down
 - Challenge: app healthcheck (urllib)
 
-## ⏳ Step 4 – Kubernetes on my laptop (Docker Desktop)
+## ✅ Step 4 – Kubernetes on my laptop (Docker Desktop)
 - 4.1 Check the local cluster
 - 4.2 First Pod (imperative) – and why Pods alone are not enough
 - 4.3 Namespace, Deployment, Service as YAML (declarative)
