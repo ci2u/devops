@@ -34,10 +34,10 @@ WSL2 Ubuntu 24.04, VS Code + WSL extension, Docker Desktop, git, gh, az, terrafo
 - 4.8 ConfigMap for configuration
 - Challenge: break the liveness probe, watch Kubernetes restart the container
 
-## ⬜ Step 5 – Terraform: Azure resource group + Container Registry
+## ✅ Step 5 – Terraform: Azure resource group + Container Registry
 Push my image to ACR (cost: a few cents)
 
-## ⬜ Step 6 – Terraform: AKS
+## ✅ Step 6 – Terraform: AKS
 Deploy to AKS, LoadBalancer with public IP, collect evidence, `terraform destroy`
 
 ## ⬜ Step 7 – CI with GitHub Actions
